@@ -1,0 +1,15 @@
+PROJECT REPORT: HOME AUTOMATION VIA BLUETOOTH
+CODTECH IT SOLUTIONS INTERNSHIP PROJECT REPORT
+
+1. EXECUTIVE SUMMARY:
+Traditional high-voltage wall switches pose physical safety hazards and limit accessibility for elderly or physically challenged individuals. This project documents a reliable, low-cost Home Automation system framework operating over standard short-range Bluetooth networks. By marrying mobile GUI designs with digital processing modules and secure isolated isolation relays, this architecture brings scalable smart-home mechanics into everyday consumer environments.
+
+2. SYSTEM METHODOLOGY & OPERATIONAL PATHWAY:
+- User Transmission Layer: A custom smartphone application interface hosts manual control buttons. Pressing a button sends specific lightweight character commands over wireless serial protocols.
+- Reception & Routing Node: A processing controller connected to a Bluetooth module scans for incoming serial codes.
+- Actuation Processing Matrix: The controller decodes the character array. If character matches a predefined trigger code, the controller updates its digital I/O pins to engage or release electronic relay shields. These relays open or close the 230V AC mains lines supplying power to target appliances.
+
+3. EXPECTED OUTCOMES:
+- Enhanced lifestyle convenience and high utility value for physical accessibility care setups.
+- Safe isolation between delicate low-voltage controller logic and high-voltage household electrical equipment.
+- Inexpensive implementation cost compared to expensive commercial internet-based automation ecosystems.
