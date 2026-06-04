@@ -1,0 +1,25 @@
+========================================================================
+MOBILE APPLICATION INTERFACE & SMARTPHONE UI SPECIFICATIONS
+========================================================================
+
+1. MOBILE APP BUTTON & SCREEN MATRIX LAYOUT:
+------------------------------------------------------------------------
+| [Icon] Smart Home Controller              Bluetooth Status: CONNECTED |
+------------------------------------------------------------------------
+|  [LIVING ROOM CONTROLS]                                              |
+|  [ LIGHT 1: ON ]  (Sends 'A')       |   [ LIGHT 1: OFF ] (Sends 'a') |
+|  [ MAIN FAN: ON ] (Sends 'B')       |   [ MAIN FAN: OFF ](Sends 'b') |
+|                                                                      |
+|  [KITCHEN CONTROLS]                                                  |
+|  [ LIGHT 2: ON ]  (Sends 'C')       |   [ LIGHT 2: OFF ] (Sends 'c') |
+|                                                                      |
+|  [MASTER BEDROOM]                                                    |
+|  [ AC UNIT: ON ]  (Sends 'D')       |   [ AC UNIT: OFF ] (Sends 'd') |
+------------------------------------------------------------------------
+|  [SYSTEM ACTION] -> [ MASTER SHUTDOWN: ALL OFF ]                     |
+------------------------------------------------------------------------
+
+2. DEVICE HARDWARE CONTROL LOGIC:
+- Transmission Mode: Serial UART communication over Bluetooth RF frequencies.
+- Range Threshold: Nominal operational radius up to 10 meters inside internal building structures.
+- Safeguard Metric: Automated fallback safety script triggers an opening of all load relays if connection signals timeout abruptly.
