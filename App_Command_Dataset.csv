@@ -1,0 +1,9 @@
+Log_ID,App_Button_Pressed,Bluetooth_Serial_Token,Target_Appliance,Relay_Channel_State,Operation_Status
+LOG_01,Living Room Light ON,A,Living Room Light,HIGH (ON),Success
+LOG_02,Living Room Light OFF,a,Living Room Light,LOW (OFF),Success
+LOG_03,Ceiling Fan ON,B,Ceiling Fan,HIGH (ON),Success
+LOG_04,Ceiling Fan OFF,b,Ceiling Fan,LOW (OFF),Success
+LOG_05,Kitchen Appliance ON,C,Kitchen Light,HIGH (ON),Success
+LOG_06,Kitchen Appliance OFF,c,Kitchen Light,LOW (OFF),Success
+LOG_07,Master Bed AC ON,D,Bedroom AC,HIGH (ON),Success
+LOG_08,Master Bed AC OFF,d,Bedroom AC,LOW (OFF),Success
